@@ -1,6 +1,11 @@
-# GGoS
-HTTP/2 DDoS Method using legit headers aswell as tls configs and checks against mainly cloudflares http ddos rules
+## GGoS
+HTTP/2 DDoS method that uses legitimate headers and TLS configurations, and focuses on compliance with Cloudflare HTTP DDoS rules.
 
-usage example: ```go run main.go url 120 100 proxies.txt 100000``` thread number this high since goroutines work a little bit different than usual threads
+### Usage
+```sh
+go run main.go url 120 100 proxies.txt 100000
+```
+Thread number this high since goroutines work a little bit different than usual threads
 
-thanks to https://github.com/t101804/Priv8Bypass for cf bypass
+### Acknowledgements
+Thanks to [@t101804](https://github.com/t101804) for [CloudFlare Bypass](https://github.com/t101804/Priv8Bypass)
