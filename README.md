@@ -12,3 +12,6 @@ Thread number this high since goroutines work a little bit different than usual 
 
 ### Acknowledgements
 Thanks to [@t101804](https://github.com/t101804) for [Cloudflare Bypass](https://github.com/t101804/Priv8Bypass)
+
+### Notice
+This was cloned from [Dark Anubis Repo](https://github.com/darkanubis0100/http2go) to be updated and removed the existing bugs and that one was forked from the [original](https://github.com/NetworkDir/http2go) made by [@udbnt](https://github.com/udbnt)
